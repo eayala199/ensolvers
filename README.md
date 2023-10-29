@@ -4,7 +4,7 @@ This page is responsible for keeping track of a list of items. You can add, edit
 
 The form validates that all fields have been completed.
 
-Now you can organize your items into categories! They can be hidden or shown in case of many tasks to make the application easier to use.
+Now you can organize your items into categories! They can be hidden or shown in case of many items to make the application easier to use.
 
 ## Author ✒️
 
