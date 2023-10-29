@@ -1,0 +1,141 @@
+body {
+    background: #4b6cb7;  
+    background: -webkit-linear-gradient(to right, #4b6cb7, #182848); 
+    background: linear-gradient(to right, #4b6cb7, #182848);
+    color: white;
+}
+
+h1, p {
+    display: block;
+    text-align: center;
+    line-height:.8;
+}
+
+h2 {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+#contenido {
+    margin-top: 40px;
+}
+.delete-task,
+.delete-task:hover {
+    float: right;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+    height: auto;
+}
+
+.edit-task,
+.edit-task:hover {
+    float: right;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+    height: auto;
+}
+
+.error {
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    max-width: 400px;
+    margin: 0 auto;
+    color: white;
+}
+
+.success {
+    background-color: #2fc63e;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    max-width: 400px;
+    margin: 0 auto;
+    color: white;
+}
+
+.checked,
+.checked:hover{
+    float: left;
+    background-color: #2fc63e;
+    text-align: center;
+    padding: 1px;
+    font-weight: bold;
+    width: 24px;
+    margin-right: 12px;
+    color: white;
+    cursor: pointer;
+}
+
+.unchecked,
+.unchecked:hover{
+    float: left;
+    background-color: rgb(10, 178, 190);
+    text-align: center;
+    padding: 1px;
+    font-weight: bold;
+    width: 24px;
+    margin-right: 12px;
+    color: white;
+    cursor: pointer;
+}
+
+.tachar{
+    text-decoration: line-through;
+    text-decoration-color: rgb(192, 7, 7);
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 10px;
+    color: white;
+}
+
+.pendiente{
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 10px;
+    color: white;
+}
+
+.folder{
+    text-align: left;
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+
+.delete-folder,
+.delete-folder:hover {
+    margin-top: 7.5px;
+    font-size: medium;
+    float: right;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+    height: auto;
+}
+
+.show-folder,
+.show-folder:hover{
+    margin-top: 7.5px;
+    font-size: medium;
+    float: right;
+    cursor: pointer;
+    color: rgb(230, 230, 230);
+    font-weight: bold;
+    height: auto;
+    margin-right: 10px;
+}
+
+.hide-task{
+    display: none;
+}
+
+.show-task{
+    display: block;
+}
